@@ -243,7 +243,7 @@ def build_dag() -> DAGEngine:
     return dag
 
 
-if run_simulation or 'simulation_result' not in st.session_state:
+if run_simulation:
     with st.spinner("Running simulation..."):
         # Create configuration
         config = SimulationConfig(
@@ -293,6 +293,7 @@ if run_simulation or 'simulation_result' not in st.session_state:
         st.session_state.timeline_data = timeline_data
         st.session_state.data_packet = data_packet
         st.session_state.engine = engine
+
 
 
 # Display results
