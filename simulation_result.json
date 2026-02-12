@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "generated_at": "2026-02-12T15:19:59.711832",
+    "simulation_period": {
+      "start": "2024-01-01",
+      "end": "2027-01-01"
+    },
+    "random_seed": 42
+  },
+  "final_state": {
+    "balance": "4235.892669191925191475719337",
+    "credit_score": "850",
+    "total_assets": "133282.4737332777206853953246",
+    "total_debt": "5623.890906681945198246551065",
+    "net_worth": "131894.4754957877006786244928"
+  },
+  "statistical_distributions": {
+    "final_balance": "4235.892669191925191475719337",
+    "expected_value": null,
+    "percentile_5": null,
+    "percentile_50": null,
+    "percentile_95": null
+  },
+  "risk_metrics": {
+    "collapse_probability": "0.0",
+    "shock_resilience_index": "10",
+    "balance_volatility": "851.3113630619051"
+  },
+  "portfolio_health": {
+    "net_asset_value": "131894.4754957877006786244928",
+    "liquidity_ratio": "24.45253094064807945919299196",
+    "debt_to_income_ratio": "0.01189526626121503174316289619"
+  },
+  "behavioral_metrics": {
+    "financial_vibe_score": "25",
+    "financial_vibe_description": "Stressed",
+    "pet_state": "\ud83d\ude30 Anxious",
+    "recovery_slope": null
+  }
+}
